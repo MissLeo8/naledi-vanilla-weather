@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,40 +10,52 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>Naledi's Vanilla Weather App</title>
 </head>
+
 <body>
     <div class="container">
-    <header>
-        <form class="search-form">
-            <input type="search" placeholder="Enter a city..." required class="search-form-input"/>
-            <input type="submit" value="Search" class="search-form-button"/>
-        </form>
-    </header>
-    <main>
-        <div>
-        <h1>
-            Knysna
-        </h1>
-        <p>
-            Sunday 11:41, clear
-            <br />
-            Humidity: 6%, Wind: 54km/h
-        </p>
-        </div>
-        <div>
-        ☀️17°C
-        </div>
-    </main>
-    <footer>
-        This Project is coded by <a href="#" target="_blank">Naledi Leotlela</a>
-        and is
-        <a href="#" target="_blank">
-            open-sourced on GitHub
-        </a>
-        and
-        <a href="#" target="_blank">
-            hosted on Netlify
-        </a>
-    </footer>
+        <header>
+            <form class="search-form">
+                <input type="search" placeholder="Enter a city..." required class="search-form-input" />
+                <input type="submit" value="Search" class="search-form-button" />
+            </form>
+        </header>
+        <main>
+            <div class="weather-data">
+                <div>
+                    <h1 class="weather-city">
+                        Knysna
+                    </h1>
+                    <p class="weather-details">
+                        Sunday 11:41, clear
+                        <br />
+                        Humidity: <strong>6%</strong>, Wind: <strong>54km/h</strong>
+                    </p>
+                </div>
+                <div class="weather-temperature">
+                    <div class="temperature-icon">
+                        ☀️
+                    </div>
+                    <div class="temperature-value">
+                        17
+                    </div>
+                    <div class="temperature-unit">
+                        °C
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            This Project is coded by <a href="#" target="_blank">Naledi Leotlela</a>
+            and is
+            <a href="#" target="_blank">
+                open-sourced on GitHub
+            </a>
+            and
+            <a href="#" target="_blank">
+                hosted on Netlify
+            </a>
+        </footer>
     </div>
 </body>
+
 </html>
